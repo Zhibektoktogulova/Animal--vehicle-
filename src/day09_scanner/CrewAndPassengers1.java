@@ -1,6 +1,4 @@
-package day_scanner;
-
-import java.util.Scanner;
+package day09_scanner;
 
 public class CrewAndPassengers1 {
     public static void main(String[] args) {
