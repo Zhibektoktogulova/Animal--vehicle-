@@ -7,7 +7,7 @@ public class MaximumNumber {
 
         Scanner input = new Scanner(System.in);
 
-        int max = Integer.MIN_VALUE; // 10
+        int max = -2345666; // 10
         for (int i = 0; i < 5; i++) {
             System.out.println("Enter number:");
             int num = input.nextInt(); // 10, 5, 3, 20, 15
