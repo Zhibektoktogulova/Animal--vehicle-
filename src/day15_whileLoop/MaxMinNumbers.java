@@ -11,6 +11,7 @@ public class MaxMinNumbers {
         int max = -12233444;
         int min = 122324444;
         for (int i = 0; i < 5; i++) {
+            System.out.println("Enter a number:");
             int num = input.nextInt();
             if (num > max) {
                 max = num;
@@ -21,7 +22,8 @@ public class MaxMinNumbers {
 
         }
         System.out.println("Maximum number is: " + max);
-        input.close();
+        System.out.println("Minimum number is: " + min );
+
 
     }
 }
