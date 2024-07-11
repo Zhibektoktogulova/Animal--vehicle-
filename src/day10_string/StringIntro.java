@@ -25,6 +25,20 @@ public class StringIntro {
         System.out.println(s1==s4);
         System.out.println(s3==s4);
 
+        System.out.println("------------------------------");
+
+        String str1 = new String("Java"); // Creates two objects : 1 String pool , 2 in heap (outside string)
+        String str2 = new String("Java");
+        System.out.println(str1 == str2);
+
+        System.out.println("------------------------------");
+        String str3 = "Python";
+        String str4 = new String("Python");
+        String str5 = new String("Python");
+        System.out.println(str3 == str4);
+        System.out.println(str3 == str5);
+
+
 
 
 
