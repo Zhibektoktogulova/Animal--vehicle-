@@ -10,7 +10,7 @@ public class ReturnMethodsPractice {
         }else{
             System.out.println(num);
         }
-        System.out.println("------------------------------------");
+
 
 
     }
@@ -27,6 +27,16 @@ public class ReturnMethodsPractice {
         //return (num % 2 == 0)? true : false;
 
     }
+    public static int max(int n1,int n2) {
+        if(n1 > n2){
+            return n1;
+        }else{
+            return n2;
+        }
+
+
+    }
+
 
     }
 
