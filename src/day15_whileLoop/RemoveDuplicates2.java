@@ -1,5 +1,7 @@
 package day15_whileLoop;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class RemoveDuplicates2 {
     public static void main(String[] args) {
 
@@ -15,5 +17,9 @@ public class RemoveDuplicates2 {
 
         }
         System.out.println(result);
+
+          }
     }
-}
+
+
+
